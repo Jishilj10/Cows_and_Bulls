@@ -14,11 +14,17 @@ Welcome to the Cows and Bulls Game! This simple console-based game challenges yo
    ```git clone https://github.com/your-username/4BsCs-Game.git```
 
 2. Navigate to game directory.
+
    ```cd Cows_and_Bulls```
+
 3. Compile the C++ code to generate the executable:
+
     ```g++ -o main.exe main.cpp```
+
 4. Run the executable.
+
     ```main.exe```  
+    
 
 ## How to play
 1. Upon launching the game, you will be prompted with a     welcome message.
