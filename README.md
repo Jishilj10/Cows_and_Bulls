@@ -1,6 +1,6 @@
 # Cows_and_Bulls
 
-Welcome to the Cows and Bulls Game! This simple console-based game challenges you to guess a 4-digit number with no repetitive digits. You can also play against the computer. The game provides feedback in terms of Bs (Bulls) and Cs (Cows) to help you deduce the correct number. nBs means the guessed number has n digits at same positions as the secret number, nCs means the guessed number has n digits at different positions.  
+Welcome to the Cows and Bulls Game! This simple console-based game challenges you to guess a 4-digit number with no repetitive digits. You can also play against the computer. The game provides feedback in terms of Bs (Bulls) and Cs (Cows) to help you deduce the correct number. 'nB' means the guessed number has n digits at same positions as the secret number, 'nC' means the guessed number has n digits at different positions.  
 
 ## How to Open the Game
 
