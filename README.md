@@ -33,7 +33,7 @@ Welcome to the Cows and Bulls Game! This simple console-based game challenges yo
 
 3. After each guess, the game will provide feedback in terms of Bs (correct digit in the correct position) and Cs (correct digit in the wrong position).
 
-4. The game continues until you correctly guess the number with 4Bs or the computer correctly guesses your number.
+4. The game continues until you correctly guess the number with 4Bs.
 
 5. Enjoy playing and try to guess the number in the fewest attempts!    
 
