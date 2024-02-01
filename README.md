@@ -11,7 +11,7 @@ Welcome to the Cows and Bulls Game! This simple console-based game challenges yo
 ### Instructions
 1. Clone the repository to your local machine:
 
-   ```git clone https://github.com/your-username/4BsCs-Game.git```
+   ```git clone https://github.com/Jishilj10/Cows_and_Bulls.git```
 
 2. Navigate to game directory.
 
