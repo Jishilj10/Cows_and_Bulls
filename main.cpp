@@ -4,7 +4,6 @@
 #include <algorithm>
 #include <vector>
 #include <conio.h>
-#include <windows.h>
 
 using namespace std;
 
@@ -41,8 +40,6 @@ void printGuessTable(const vector<pair<string, pair<int, int>>>& guessTable)
     for (const auto& entry : guessTable) 
     {
         cout << "|   " << entry.first << "   |   " << entry.second.first << "Bs, " << entry.second.second << "Cs   |" << endl;
-        cout << "Press Enter to continue...";
-        cin.ignore(); 
     }
 
     cout << "------------------------------------" << endl;
@@ -54,7 +51,7 @@ void displayWelcomeMessage()
     cout << "Try to guess the 4-digit number. Good luck!" << endl;
     cout << "Enter your 4-digit guess with no repetitive digits" << endl;
     cout << "After each guess, the game will provide feedback in terms of Bs (correct digit in the correct position) and Cs (correct digit in the wrong position)." << endl;
-    cout << "The game continues until you correctly guess the number with 4Bs." << endl
+    cout << "The game continues until you correctly guess the number with 4Bs." << endl;
 }
 
 string getPlayerGuess() 
@@ -84,7 +81,8 @@ int main()
     vector<pair<string, pair<int, int>>> guessTable;
 
     displayWelcomeMessage();
-
+    cout<<"Press Enter to Continue"<<endl;
+    cin.ignore();
     while (true) 
     {
         system("cls");
